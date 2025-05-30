@@ -31,7 +31,7 @@
     ".": {
       "types": "./types/hyparquet.d.ts",
       "import": "./hyparquet.cjs.js"
-    },
+    }
   },
   "sideEffects": false,
   "scripts": {
