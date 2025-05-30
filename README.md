@@ -1,5 +1,15 @@
 # hyparquet
 
+```
+npx esbuild src/hyparquet.js \
+  --bundle \
+  --platform=node \
+  --format=cjs \
+  --outfile=hyparquet.cjs.js \
+  --target=node21
+```
+
+
 ![hyparquet parakeet](hyparquet.jpg)
 
 [![npm](https://img.shields.io/npm/v/hyparquet)](https://www.npmjs.com/package/hyparquet)
