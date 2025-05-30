@@ -27,12 +27,6 @@
     "types"
   ],
   "types": "types/hyparquet.d.ts",
-  "exports": {
-    ".": {
-      "types": "./types/hyparquet.d.ts",
-      "import": "./hyparquet.cjs.js"
-    }
-  },
   "sideEffects": false,
   "scripts": {
     "build:types": "tsc -p ./tsconfig.build.json",
